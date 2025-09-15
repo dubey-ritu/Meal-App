@@ -1,0 +1,26 @@
+.pill-button {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0.5rem 1.2rem;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 8px 0px;
+}
+
+.pill-button:hover {
+  background-color: #e65a5a;
+}
+
+.pill-icon {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}

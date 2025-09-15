@@ -1,0 +1,7 @@
+.home-container {
+  display: grid;
+  /* grid-template-columns: 150px auto; */
+  gap: 10px;
+  /* background-color: #fffff2; */
+  color: #705626;
+}

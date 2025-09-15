@@ -1,0 +1,159 @@
+.meal-recipe-container {
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.back-button {
+  cursor: pointer;
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.hero-section {
+  position: relative;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.meal-tags .tag {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.75rem;
+  margin-right: 0.5rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+.meal-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.ingredient-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.ingredient-item {
+  background-color: #f5f5f5;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.instructions {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.youtube-link a {
+  text-decoration: none;
+  background: #ff6b6b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 500;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.youtube-link a:hover {
+  background: #e65a5a;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.source a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.instruction-list {
+  list-style: decimal inside;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.instruction-list li {
+  margin-bottom: 0.75rem;
+}
+
+.favorite-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.favorite-btn .no-favorite {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.favorite-btn .favorite {
+  color: #e74c3c;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.tag-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
