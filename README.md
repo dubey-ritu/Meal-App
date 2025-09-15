@@ -1,23 +1,10 @@
-# 🍽️ Meal App — Recipe Explorer with TheMealDB API
+# Meal App — Recipe Explorer with TheMealDB API
 
-A sleek and user-friendly recipe discovery web app built with **React.js**, **Context API + useReducer**, and powered by the [TheMealDB API](https://www.themealdb.com/).
-
-Explore meals from around the world, browse by category, view detailed recipes, and manage your favorites!
+A user-friendly recipe discovery web app built with **React.js**, **Context API + useReducer**, and powered by the [TheMealDB API](https://www.themealdb.com/).
 
 ---
 
-## 🚀 Features
-
-- 🔍 **Search** meals by category
-- 📂 **Browse** global recipes
-- 🍽️ View **ingredients**, **instructions**, and **YouTube tutorials**
-- ❤️ **Add to Favorites** (stored in localStorage)
-- ⚛️ Built using **React**, **Context API**, and **React Router**
-- 🖼️ Image lazy loading for optimized performance
-
----
-
-## 📦 Tech Stack
+## Tech Stack
 
 - **React** (Functional Components & Hooks)
 - **React Router DOM** for routing
@@ -28,7 +15,7 @@ Explore meals from around the world, browse by category, view detailed recipes, 
 
 ---
 
-## 🛠️ Installation & Running Locally
+## Installation & Running Locally
 
 1. **Clone the repo**
    ```bash
