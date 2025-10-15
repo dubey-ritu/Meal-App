@@ -1,33 +1,92 @@
-# Meal App — Recipe Explorer with TheMealDB API
+# Meal Finder App
 
-A user-friendly recipe discovery web app built with **React.js**, **Context API + useReducer**, and powered by the [TheMealDB API](https://www.themealdb.com/).
+## 🚀 Features
+- Search meals by name
+- View meal details and instructions
+- Random meal suggestion
+- Responsive design
+- Category-based filtering
+- Favorite meals functionality
 
----
+## 🛠️ Tech Stack
+- React.js
+- React Router
+- CSS Modules
+- MealDB API
+- Context API
 
-## Tech Stack
+## 📦 Installation
+```bash
+git clone 
+cd meal-app
+npm install
+npm start
+```
 
-- **React** (Functional Components & Hooks)
-- **React Router DOM** for routing
-- **Context API + useReducer** for global state management
-- **CSS Modules** for styling
-- **Font Awesome** (v4.7) for icons
-- **TheMealDB API** for meal data
+## 📁 Project Structure
+```
+meal-app/
+├── src/
+│   ├── components/
+│   │   ├── Header/
+│   │   ├── MealCard/
+│   │   ├── MealDetail/
+│   │   └── SearchBar/
+│   ├── context/
+│   │   └── MealContext.js
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Details/
+│   │   └── Favorites/
+│   ├── App.js
+│   └── index.js
+├── public/
+└── package.json
+```
 
----
+## 🎯 Usage
+1. Open `http://localhost:3000`
+2. Search for meals using the search bar
+3. Click on meals for detailed information
+4. Save your favorite meals
+5. Try random meal suggestions
 
-## Installation & Running Locally
+## ⚙️ Scripts
+```bash
+npm start     # Development server
+npm run build # Production build
+npm test      # Run tests
+```
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/dubey-ritu/Meal-App.git
-   cd meal-app
+## 🌐 API Integration
+- MealDB API integration for meal data
+- Search functionality
+- Meal details retrieval
+- Random meal selection
+- Category filtering
 
-2. **Install Dependency**
-    npm install
+## 📱 Features
+- Responsive design
+- Mobile-first approach
+- User-friendly interface
+- Favorites system
+- Search functionality
+- Category filtering
 
-3. **Run the App**
-    npm start
+## 🔧 Dependencies
+```json
+{
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-router-dom": "^6.x",
+  "axios": "^1.x"
+}
+```
+
+## 🚀 Deployment
+```bash
+npm run build
+```
 
 
-
-
+Happy Cooking! 🍳
