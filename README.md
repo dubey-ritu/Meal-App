@@ -8,13 +8,6 @@
 - Category-based filtering
 - Favorite meals functionality
 
-##  Tech Stack
-- React.js
-- React Router
-- CSS Modules
-- MealDB API
-- Context API
-
 ##  Installation
 ```bash
 git clone 
